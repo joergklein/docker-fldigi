@@ -10,5 +10,5 @@ docker run -ti --rm --privileged --name fldigi \
             -e DISPLAY=$DISPLAY \
             -v /tmp/.X11-unix:/tmp/.X11-unix \
             -v $HOME/.Xauthority:/root/.Xauthority \
-              telegraphist/fldigi /bin/sh
+              joergklein/fldigi /bin/sh
 
